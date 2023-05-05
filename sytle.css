@@ -1,0 +1,58 @@
+body{
+    background-color: #C5D8A4 !important;
+}
+.hi {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.mm{
+    border: 1px solid black;
+    width:150px;
+    height:150px;
+    background-size:contain;
+    background-position:center;
+    border-radius:50%;
+}
+@media only screen and (max-width: 768px)  {
+    /* Make the divs appear in a row */
+    .first-img {
+        display: flex;
+        justify-content: center;
+    }
+    /* .col-md-3 {
+        width: 100% !important; 
+    } */
+}
+    /*.hi{
+        width: 130px;
+        height: 130px;
+        /* background-color: #ccc; 
+        margin: 10;
+    }
+}  */
+@media only screen and (min-width: 576px){
+/* .col-sm-12 {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+} */
+}
+/*
+
+@media only screen and (max-width: 600px) {
+    /* Make the divs appear in two rows 
+    .hi:first-child {
+        margin: 20px auto;
+    }
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+    }
+} */
